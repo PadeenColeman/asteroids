@@ -1,4 +1,6 @@
+import pygame
 from constants import PLAYER_RADIUS, LINE_WIDTH
+from circleshape import CircleShape
 
 
 class Player(CircleShape):
