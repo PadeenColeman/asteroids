@@ -23,7 +23,7 @@ def main():
     AsteroidField.containers = (updatable,)
 
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-    asteroids = AsteroidField()
+    asteroid_field = AsteroidField()
 
     while True:
         log_state()
